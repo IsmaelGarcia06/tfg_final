@@ -1,0 +1,19 @@
+{
+  "name": "psicologia/rexwaher-crm",
+  "description": "CRM para clínica de psicología",
+  "type": "project",
+  "require": {
+    "php": ">=7.4",
+    "google/apiclient": "2.16.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Src\\": "src/"
+    }
+  },
+  "config": {
+    "audit": {
+      "ignore": ["PKSA-y2cr-5h3j-g3ys"]
+    }
+  }
+}
